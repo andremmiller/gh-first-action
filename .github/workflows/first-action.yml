@@ -7,5 +7,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World"
+      - name: Multi line command
+        run: |
+          echo "I am running ..."
+          echo "a multiline command"
       - name: Print goodbye
         run: echo "Done - bye!"
